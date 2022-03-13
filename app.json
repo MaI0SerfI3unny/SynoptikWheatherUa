@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Analytic Weather",
+    "slug": "AnalyticWeather",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-icon.png",
+    "splash": {
+  
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "tothepointcode.analyticweather",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
